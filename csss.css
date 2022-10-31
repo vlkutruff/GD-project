@@ -88,3 +88,26 @@ body{
 .paragraph {
   font-size: 20px
 }
+a:link {
+  color: #82FF96;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #82FF96;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #82FF96;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #82FF96;
+  background-color: transparent;
+  text-decoration: underline;
+}
