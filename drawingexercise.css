@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+}
+
+#canvas {
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#tophair {
+  width: 330px;
+  height: 130px;
+  background: #db63c5;
+  border-radius: 70% 70% 30% 5%;
+}
+
+#skin {
+  position: absolute;
+  width: 330px;
+  height: 300px;
+  top: 100px;
+  background: #d6bf98;
+  border-radius: 0% 0% 40% 40%;
+  box-shadow: inset 0 0 50px #806e4f;
+}
+#backhair {
+  width: 330px;
+  height: 425px;
+  top: 90px;
+  background: #b55ba4;
+  border-radius: 40% 40% 20% 20%;
+}
+#curlyhair1 {
+  z-index: 1;
+  position: absolute;
+  width: 60px;
+  height: 390px;
+  top: -50px;
+  left: -35px;
+  background: #db63c5;
+  border-radius: 70% 0% 0% 90%;
+  transform: rotate(5deg);
+}
+
+#curlyhair2 {
+  z-index: 1;
+  position: absolute;
+  width: 60px;
+  height: 390px;
+  top: -50px;
+  right: -35px;
+  background: #db63c5;
+  border-radius: 0% 70% 90% 0%;
+  transform: rotate(-5deg);
+}
+
+#curlyhair3 {
+  z-index: 1;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -5px;
+  left: 5px;
+  background: #db63c5;
+  border-radius: 0% 5% 100% 5%;
+  transform: rotate(1deg);
+}
+
+#curlyhair4 {
+  z-index: 1;
+  position: absolute;
+  width: 230px;
+  height: 90px;
+  top: -5px;
+  right: 5px;
+  background: #db63c5;
+  border-radius: 0% 0% 0% 120%;
+  transform: rotate(-1deg);
+}
+
+#curlyhair5 {
+  z-index: 1;
+  position: absolute;
+  width: 70px;
+  height: 350px;
+  top: -25px;
+  left: -8px;
+  background: #db63c5;
+  border-radius: 0% 100% 0% 70%;
+  transform: rotate(5deg);
+}
+
+#curlyhair6 {
+  z-index: 1;
+  position: absolute;
+  width: 70px;
+  height: 350px;
+  top: -25px;
+  right: -8px;
+  background: #db63c5;
+  border-radius: 100% 0% 70% 0%;
+  transform: rotate(-5deg);
+}
+
+#eyebrow1 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: #c756a3;
+  border-radius: 50%;
+  top: 60px;
+  left: 50px;
+  transform: rotate(-3deg);
+}
+
+#eyebrow2 {
+  position: absolute;
+  width: 70px;
+  height: 10px;
+  background: #c756a3;
+  top: 60px;
+  right: 50px;
+  transform: rotate(3deg);
+}
+
+#eye1 {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  background: white;
+  top: 80px;
+  left: 50px;
+  border-radius: 50% 50% 0% 30%;
+  border-color: #17021c;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#eye2 {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  background: white;
+  top: 80px;
+  right: 50px;
+  border-radius: 50% 50% 30% 0%;
+  border-color: #17021c;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#iris1 {
+  z-index: 1;
+  position: absolute;
+  width: 40px;
+  height: 56px;
+  background-color: #d208ff;
+  top: 87.5px;
+  left: 84px;
+  border-radius: 125% 147% 0% 120%;
+}
+
+#iris2 {
+  z-index: 1;
+  position: absolute;
+  width: 40px;
+  height: 56px;
+  background-color: #d208ff;
+  top: 87.5px;
+  right: 52px;
+  border-radius: 120% 120% 95% 100%;
+}
+
+#pupil1 {
+  z-index: 2;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: #6d0585;
+  top: 103px;
+  left: 96px;
+  border-radius: 50%;
+}
+
+#pupil2 {
+  z-index: 2;
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background: #6d0585;
+  top: 103px;
+  right: 61px;
+  border-radius: 50%;
+}
+
+#nose {
+  position: absolute;
+  border-bottom: 50px solid #db9576;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  height: 0;
+  width: 0px;
+  top: 150px;
+  left: 147px;
+}
+
+#lip {
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  border: 25px solid;
+  border-color: transparent transparent black transparent;
+  top: 200px;
+  left: 90px;
+  border-radius: 350% 750% 350% 500%
+}
+
+#ear1 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  left: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-10deg);
+}
+
+#ear2 {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: bisque;
+  box-shadow: inset 0 0 20px black;
+  right: -46px;
+  top: 50px;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(10deg);
+}
+.pink {
+  color: #db63c5;
+}
+.magenta {
+  color: #d208ff;
+}
+.skin {
+  color: #e6d9c3;
+}
+.skin-s {
+  color: #baaa8d;
+}
+.n {
+  color: #db9576;
+}
+.blush {
+  color: #e37d98
+}

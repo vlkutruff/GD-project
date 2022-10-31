@@ -1,0 +1,90 @@
+body{
+  background-color: #0F0F0F
+}
+
+.border1 {
+  margin: 15px;
+  padding: 13px;
+  display: inline-block;
+  border-width:3.5px;
+  border-style: double;
+  border-radius: 20px 40px 0px 25px;
+  position: relative;
+}
+.border2 {
+  margin: 15px;
+  padding:0px;
+  display: inline-block;
+  border-width:5px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+}
+.border3 {
+  margin: 15px;
+  padding: 5px;
+  display: inline-block;
+  border-width: 6px;
+  border-style: dotted;
+  border-radius: 5px 25px 10px 50px;
+}
+.virus {
+  font-family: No Virus;
+}
+.sus {
+  font-family: Among Us;
+}
+.jabjai {
+  font-family: jabjai;
+}
+.disk {
+  font-family: Disk Regular;
+}
+.anime {
+  font-family: Anime Inept Regular;
+}
+.lemon {
+  font-family: Lemon Love Regular;
+}
+.eat {
+  font-family: Like Eat Regular;
+}
+.coffee {
+  font-family: Milky Coffee Regular;
+}
+.rainbow {
+  font-family: Rainbowbitch2;
+}
+.white {
+  color: #ffffff;
+}
+.lime {
+  color: #1EDC00;
+}
+.blue {
+  color:#00c3e3;
+}
+.red {
+  color:#FF3C28;
+}
+.pink {
+  color:#FF3278;
+}
+.purple {
+  color:#B400E6;
+}
+.orange {
+  color: #FAA005;
+}
+.mint {
+  color:#82FF96;
+}
+.sky {
+  color:#96f5f5;
+}
+.header {
+  font-size: 80px
+}
+.paragraph {
+  font-size: 20px
+}

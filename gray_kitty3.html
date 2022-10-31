@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>A totally legit website</title>
+<image src="gray_kitty.JPG" width=50% />
+<p>Use this form to sigh up to be friends with this stuffed animal!</p>
+<p>I don't know what will happen if you actually fill out this form!</p>
+<hr>
+</html>
+
+<form action="/signup" method="post">
+  <label>
+  <p>Do you want to be friend with this stuffed animal?</p>
+    <a href="gray_kitty2.html"><input type="radio" name="newsletter" value="yes" disabled/></a>
+    Yes
+  </label>
+  <label>
+  <input type="radio" name="newsletter" value="yes">
+    Yes
+  </label>
+  <label>
+    <a href="gray_kitty.html"><input type="radio" name="newsletter" value="yes" disabled/></a>
+    Yes
+  </label>
+  <p>
+    <label>First name</label><br>
+    <input type="text" name="first_name" required/>
+  </p>
+  <p>
+    <label>Last name</label><br>
+    <input type="text" name="last_name" required>
+  </p>
+  <p>
+    <label>Email</label><br>
+    <input type="email" name="email" required>
+  </p>
+  <p>
+    <label>Phone number</label><br>
+    <input type="tel" name="phone" required>
+  </p>
+  <p>
+    <label for="date">Birthday</label>
+    <input id="date" name="date" type="date" required/>
+  </p>
+<p>
+    <label>Credit/Debit card number</label><br>
+    <input type="number" name="C/D card #" required>
+  </p>
+  <p>
+    <label>Social security number</label><br>
+    <a href="finalwebsite.html"><input type="number" name="ss#" required></a>
+  </p>
+  <p>
+    Please write a 5 page essay on why I should deem you as worthy to friends with this stuffed animal<br>
+    <a href="drawingexercise.html"><textarea id="textarea" name="textarea" cols="84" rows="35"></textarea minlength="1000000" placeholder="5000 words required" required></a>
+  </p>
+  <p>
+    <label>
+      <input type="checkbox" value="terms" required>
+      I agree to the <a href="https://i.imgflip.com/2se82k.jpg?a462528">terms and conditions</a>
+    </label>
+  </p>
+
+    <p>
+    <button>Sign up</button>
+    <button type="reset">Reset form</button>
+  </p>
+</form>

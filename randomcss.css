@@ -1,0 +1,144 @@
+body{
+  background-color: #3d2c4d
+}
+
+.border1 {
+  margin: 15px;
+  padding: 13px;
+  display: inline-block;
+  max-width: 850px;
+  border-width:3.5px;
+  border-style: double;
+  border-radius: 20px 40px 0px 25px;
+  position: relative;
+}
+.border2 {
+  margin: 15px;
+  padding:0px;
+  display: inline-block;
+  max-width: 850px;
+  border-width:5px;
+  border-style: solid;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+}
+.border3 {
+  margin: 15px;
+  padding: 5px;
+  display: inline-block;
+  max-width: 850px;
+  border-width: 6px;
+  border-style: dotted;
+  border-radius: 5px 25px 10px 50px;
+}
+.border4 {
+  margin: 20px;
+  padding:10px;
+  display: inline-block;
+  max-width: 850px;
+  border-width:3px;
+  border-style: double;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+}
+.border5 {
+  margin: 20px;
+  padding:0px;
+  display: inline-block;
+  border-width:0px;
+  border-style: solid;
+  border-radius: 10px 40px 35px 5px;
+  position: relative;
+
+}
+.virus {
+  font-family: No Virus;
+}
+.sus {
+  font-family: Among Us;
+}
+.jabjai {
+  font-family: jabjai;
+}
+.disk {
+  font-family: Disk Regular;
+}
+.anime {
+  font-family: Anime Inept Regular;
+}
+.lemon {
+  font-family: Lemon Love Regular;
+}
+.eat {
+  font-family: Like Eat Regular;
+}
+.coffee {
+  font-family: Milky Coffee Regular;
+}
+.rainbow {
+  font-family: Rainbowbitch2;
+}
+.white {
+  color: #ffffff;
+}
+.green {
+  color: #00b554;
+}
+.blue {
+  color:#00c3e3;
+}
+.red {
+  color:#db1600;
+}
+.pink {
+  color:#FF3278;
+}
+.purple {
+  color:#B400E6;
+}
+.orange {
+  color: #FAA005;
+}
+.lgreen {
+  color:#82FF96;
+}
+.blue {
+  color:#96f5f5;
+}
+.header {
+  font-size: 80px
+}
+.paragraph {
+  font-size: 20px
+}
+.gradient1 {
+    background-image: linear-gradient(to left, #ff4133, #ff9742, #fcff42, #92fa73, #73fad4, #6192fa, #b259ff, #ff59e6);   -webkit-background-clip: text;
+    color: transparent;
+}
+.gradient2 {
+    background-image: repeating-linear-gradient(to left, #ff4133, #ff9742, #fcff42, #92fa73, #73fad4, #6192fa, #b259ff, #ff59e6, #ff4133);   -webkit-background-clip: text;
+    color: transparent;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
